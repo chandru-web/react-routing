@@ -1,0 +1,53 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list-container {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-link {
+  text-decoration: none;
+  color: #12022f;
+}
+
+.nav-list-container li {
+  margin-left: 20px;
+  cursor: pointer;
+  color: #12022f;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.wave-text {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #12022f;
+}
+.wave-logo {
+  height: 50px;
+  width: 50px;
+}
+
+@media (max-width: 768px) {
+  .wave-logo {
+    height: 30px;
+    width: 30px;
+  }
+  .wave-text {
+    font-size: 20px;
+  }
+  .nav-list-container li {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+}
